@@ -20,6 +20,9 @@ public class Nametest {
 		assertEquals(4, this.p1.countCharecters());
 	}
 	
-	
+	@Test
+	public void returnname() {
+		assertEquals("aloh", this.p1.returnname());
+	}
 
 }
