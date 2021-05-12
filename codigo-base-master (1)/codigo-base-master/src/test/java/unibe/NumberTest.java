@@ -18,6 +18,13 @@ private Number a1;
 	public void add() {
 		assertEquals(6, this.a1.addnumbers());
 	}
+	
+
+	@Test
+	public void less() {
+		assertEquals(2, this.a1.lessnumbers());
+	}
+	
 
 	
 }
