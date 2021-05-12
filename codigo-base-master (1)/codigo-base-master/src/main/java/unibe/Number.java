@@ -36,4 +36,10 @@ public class Number {
 	   public int lessnumbers() {
 		   return this.number1-this.number2;
 	   }
+	   
+
+	   public int multiplicationnumbers() {
+		   return this.number1*this.number2;
+	   }
+	 
 }

@@ -26,5 +26,8 @@ private Number a1;
 	}
 	
 
-	
+	@Test
+	public void multiplication() {
+		assertEquals(8, this.a1.lessnumbers());
+	}
 }
