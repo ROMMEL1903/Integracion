@@ -24,5 +24,10 @@ public class Nametest {
 	public void returnname() {
 		assertEquals("aloh", this.p1.returnname());
 	}
+	
+	@Test
+	public void write() {
+		assertEquals("HOLA", this.p1.write());
+	}
 
 }

@@ -32,6 +32,11 @@ public class Name {
 	    	}
 	    	return r;
 	    }
+	 
+
+	    public String write() {
+	    	return this.name.toUpperCase();
+	    }
 
 }
 
